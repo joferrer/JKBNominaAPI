@@ -1,0 +1,17 @@
+###
+POST http://localhost:9000/api/empleados/registrar/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "cedula": 1010121414 ,
+    "nombre": "Pepito",
+    "apellido": "Sungano",
+    "correo": "pepitosungano@gmail.com",
+    "celular" : 32256184 ,
+    "puesto": 1
+}
+
+###
+
+
